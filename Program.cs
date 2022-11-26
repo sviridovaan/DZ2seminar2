@@ -2,13 +2,13 @@
 Console.Clear();
 Console.WriteLine("Введите число: ");
 int number = int.Parse(Console.ReadLine());
-if (number>0)
+if (number > 0)
 {
-    while (number/10>=100)
+    while (number / 10 >= 100)
     {
-        number=number/10;
+        number = number/10;
     }
-    if (number/10<10)
+    if (number / 10 < 10)
     {
         Console.WriteLine($"Третьей цифры у числа нет");
     }
@@ -19,11 +19,11 @@ if (number>0)
 }
 else
 {
-    while (number/10<=-100)
+    while (number / 10 <= -100)
     {
-        number=number/10;
+        number = number/10;
     }
-    if (number/10>-10)
+    if (number / 10 >- 10)
     {
         Console.WriteLine($"Третьей цифры у числа нет");
     }
